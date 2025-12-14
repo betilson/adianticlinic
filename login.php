@@ -86,12 +86,13 @@ try {
         
         /* HEADER */
         .ph-header {
-            background: linear-gradient(135deg, #3a3f4b 0%, #2d3139 100%);
+            background: #ffffff;
             padding: 8px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #e0e0e0;
         }
         
         .ph-header-logo {
@@ -106,46 +107,22 @@ try {
             height: 36px;
         }
         
-        .ph-logo-text {
-            display: flex;
-            flex-direction: column;
-            line-height: 1;
-        }
-        
-        .ph-logo-builder {
-            font-size: 8px;
-            font-weight: 600;
-            color: #f5a623;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-        }
-        
-        .ph-logo-clinic {
-            font-size: 16px;
-            font-weight: 800;
-            color: #fff;
-            letter-spacing: 0.5px;
-        }
-
-        .ph-logo-saas {
-            font-size: 10px;
-            font-weight: 600;
-            color: #f5a623;
-            letter-spacing: 1px;
-        }
-        
         .ph-header-login {
-            color: #8b9099;
+            color: #5a6069;
             text-decoration: none;
-            font-size: 14px;
+            font-size: 16px;
+            font-weight: 500;
             display: flex;
             align-items: center;
-            gap: 5px;
-            transition: color 0.2s;
+            gap: 8px;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            transition: all 0.2s;
         }
         
         .ph-header-login:hover {
-            color: #fff;
+            color: #f5a623;
         }
         
         /* MAIN */
@@ -301,12 +278,7 @@ try {
     <!-- HEADER -->
     <header class="ph-header">
         <a href="home.php" class="ph-header-logo">
-            <img src="favicon.png" class="ph-logo-icon">
-            <div class="ph-logo-text">
-                <span class="ph-logo-builder">ADIANTI</span>
-                <span class="ph-logo-clinic">CLINIC</span>
-                <span class="ph-logo-saas">SaaS</span>
-            </div>
+            <img src="favicon.png" style="height:40px;width:auto;">
         </a>
         <a href="home.php" class="ph-header-login">
             <i class="fas fa-arrow-left"></i> Voltar
