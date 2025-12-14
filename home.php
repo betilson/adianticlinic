@@ -35,12 +35,13 @@
 
         /* HEADER */
         .ph-header {
-            background: linear-gradient(135deg, #3a3f4b 0%, #2d3139 100%);
+            background: #ffffff;
             padding: 8px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #e0e0e0;
         }
 
         .ph-header-logo {
@@ -71,7 +72,7 @@
         .ph-logo-clinic {
             font-size: 16px;
             font-weight: 800;
-            color: #fff;
+            color: #4a4f5a;
             letter-spacing: 0.5px;
         }
 
@@ -83,7 +84,7 @@
         }
 
         .ph-header-login {
-            color: #8b9099;
+            color: #5a6069;
             text-decoration: none;
             font-size: 12px;
             display: flex;
@@ -93,7 +94,7 @@
         }
 
         .ph-header-login:hover {
-            color: #fff;
+            color: #f5a623;
         }
 
         /* MAIN CONTENT */
