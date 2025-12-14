@@ -317,12 +317,7 @@
     <!-- HEADER -->
     <header class="ph-header">
         <div class="ph-header-logo">
-            <img src="favicon.png" class="ph-logo-icon" style="width:36px;height:auto;">
-            <div class="ph-logo-text">
-                <span class="ph-logo-builder">ADIANTI</span>
-                <span class="ph-logo-clinic">CLINIC</span>
-                <span class="ph-logo-saas">SaaS</span>
-            </div>
+            <img src="favicon.png" style="height:40px;width:auto;">
         </div>
         <a href="login.php" class="ph-header-login">
             <i class="fas fa-sign-in-alt"></i> login admin
