@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png?v=3" />
     <style>
         * {
             margin: 0;
@@ -322,7 +322,7 @@
     <!-- HEADER -->
     <header class="ph-header">
         <div class="ph-header-logo">
-            <img src="favicon.png" style="height:40px;width:auto;">
+            <img src="favicon.png?v=3" style="height:40px;width:auto;">
         </div>
         <a href="login.php" class="ph-header-login">
             <i class="fas fa-sign-in-alt"></i> login admin
@@ -333,7 +333,7 @@
     <main class="ph-main">
         <!-- Logo Central -->
         <div class="ph-logo-container">
-            <img src="app/images/logo.png" style="width:180px;height:auto;margin-bottom:20px;">
+            <img src="app/images/logo.png?v=3" style="width:180px;height:auto;margin-bottom:20px;">
         </div>
 
         <!-- Action Cards -->

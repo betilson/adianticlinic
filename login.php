@@ -68,7 +68,7 @@ try {
     <title>Login - Adianti Clinic Saas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png?v=3"/>
     <style>
         * {
             margin: 0;
@@ -278,7 +278,7 @@ try {
     <!-- HEADER -->
     <header class="ph-header">
         <a href="home.php" class="ph-header-logo">
-            <img src="favicon.png" style="height:40px;width:auto;">
+            <img src="favicon.png?v=3" style="height:40px;width:auto;">
         </a>
         <a href="home.php" class="ph-header-login">
             <i class="fas fa-arrow-left"></i> Voltar
@@ -289,7 +289,7 @@ try {
     <main class="login-main">
         <!-- Logo -->
         <div class="login-logo">
-             <img src="app/images/logo.png" style="width:250px;height:auto;">
+             <img src="app/images/logo.png?v=3" style="width:250px;height:auto;">
         </div>
         
         <!-- Form -->
