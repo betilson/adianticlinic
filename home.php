@@ -86,11 +86,15 @@
         .ph-header-login {
             color: #5a6069;
             text-decoration: none;
-            font-size: 12px;
+            font-size: 16px;
+            font-weight: 500;
             display: flex;
             align-items: center;
-            gap: 5px;
-            transition: color 0.2s;
+            gap: 8px;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            transition: all 0.2s;
         }
 
         .ph-header-login:hover {
@@ -215,12 +219,13 @@
         .ph-admin-link {
             color: #7a8089;
             text-decoration: none;
-            font-size: 12px;
+            font-size: 15px;
             display: flex;
             align-items: center;
-            gap: 5px;
-            margin-top: 10px;
+            gap: 6px;
+            margin-top: 15px;
             transition: color 0.2s;
+            padding: 8px;
         }
 
         .ph-admin-link:hover {
