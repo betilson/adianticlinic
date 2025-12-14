@@ -166,8 +166,8 @@
             align-items: center;
             justify-content: center;
             gap: 12px;
-            width: 220px;
-            height: 130px;
+            width: 280px;
+            height: 180px;
             background: #fff;
             border: 2px solid #dde0e5;
             border-radius: 8px;
@@ -178,12 +178,12 @@
         }
 
         .ph-card i {
-            font-size: 28px;
+            font-size: 42px;
             color: #7a8089;
         }
 
         .ph-card span {
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 500;
             color: #5a6069;
         }
@@ -240,17 +240,17 @@
         .ph-auth-links a {
             color: #5a6069;
             text-decoration: none;
-            font-size: 13px;
+            font-size: 16px;
             display: flex;
             align-items: center;
-            gap: 6px;
-            padding: 10px 20px;
+            gap: 8px;
+            padding: 14px 30px;
             border-radius: 6px;
             transition: all 0.2s ease;
         }
 
         .ph-auth-links a i {
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .ph-create-account {
@@ -281,8 +281,8 @@
 
             .ph-card {
                 width: 100%;
-                max-width: 300px;
-                height: 90px;
+                max-width: 340px;
+                height: 110px;
                 flex-direction: row;
             }
 
