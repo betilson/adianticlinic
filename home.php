@@ -342,15 +342,15 @@
 
         <!-- Action Cards -->
         <div class="ph-cards">
-            <a href="index.php?class=PublicAgendamento" class="ph-card">
+            <a href="admin.php?class=PublicAgendamento" class="ph-card">
                 <i class="fas fa-calendar-alt"></i>
                 <span>Novo agendamento</span>
             </a>
-            <a href="index.php?class=PublicDocumentos" class="ph-card">
+            <a href="admin.php?class=PublicDocumentos" class="ph-card">
                 <i class="fas fa-file-alt"></i>
                 <span>Meus documentos</span>
             </a>
-            <a href="index.php?class=PublicValidarDocumento" class="ph-card highlight">
+            <a href="admin.php?class=PublicValidarDocumento" class="ph-card highlight">
                 <i class="fas fa-check-circle"></i>
                 <span>Validar documento</span>
             </a>
