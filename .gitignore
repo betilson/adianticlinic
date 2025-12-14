@@ -1,0 +1,28 @@
+# Dependencies
+/vendor/
+
+# Temporary files
+/tmp/*
+!/tmp/.gitkeep
+
+# Output files
+/app/output/*
+!/app/output/.gitkeep
+
+# Database files (optional - uncomment if you don't want to version)
+# /app/database/*.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+*.cache
