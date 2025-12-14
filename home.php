@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Builder Clinic - Sistema de Gestão de Clínicas</title>
+    <title>Adianti Clinic Saas - Sistema de Gestão de Clínicas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -75,6 +75,13 @@
             letter-spacing: 0.5px;
         }
 
+        .ph-logo-saas {
+            font-size: 10px;
+            font-weight: 600;
+            color: #f5a623;
+            letter-spacing: 1px;
+        }
+
         .ph-header-login {
             color: #8b9099;
             text-decoration: none;
@@ -134,6 +141,14 @@
             letter-spacing: 1px;
             line-height: 0.9;
             text-shadow: 2px 2px 0 #d0d3d9, 3px 3px 0 #c0c3c9;
+        }
+
+        .ph-main-saas {
+            font-size: 20px;
+            font-weight: 600;
+            color: #f5a623;
+            letter-spacing: 2px;
+            margin-top: 5px;
         }
 
         /* ACTION CARDS */
@@ -301,17 +316,11 @@
     <!-- HEADER -->
     <header class="ph-header">
         <div class="ph-header-logo">
-            <div class="ph-logo-icon">
-                <svg viewBox="0 0 40 40" width="36" height="36">
-                    <rect x="15" y="5" width="10" height="30" rx="2" fill="#4a4f5a" />
-                    <rect x="5" y="15" width="30" height="10" rx="2" fill="#4a4f5a" />
-                    <path d="M20 14 C17 10, 12 10, 12 15 C12 20, 20 26, 20 26 C20 26, 28 20, 28 15 C28 10, 23 10, 20 14"
-                        fill="#f5a623" />
-                </svg>
-            </div>
+            <img src="favicon.png" class="ph-logo-icon" style="width:36px;height:auto;">
             <div class="ph-logo-text">
-                <span class="ph-logo-builder">BUILDER</span>
+                <span class="ph-logo-builder">ADIANTI</span>
                 <span class="ph-logo-clinic">CLINIC</span>
+                <span class="ph-logo-saas">SaaS</span>
             </div>
         </div>
         <a href="login.php" class="ph-header-login">
@@ -323,21 +332,7 @@
     <main class="ph-main">
         <!-- Logo Central -->
         <div class="ph-logo-container">
-            <div class="ph-main-logo-icon">
-                <svg viewBox="0 0 80 100" width="80" height="95">
-                    <rect x="28" y="5" width="24" height="70" rx="4" fill="#5a6069" />
-                    <rect x="5" y="28" width="70" height="24" rx="4" fill="#5a6069" />
-                    <rect x="30" y="7" width="20" height="66" rx="3" fill="#4a4f5a" />
-                    <rect x="7" y="30" width="66" height="20" rx="3" fill="#4a4f5a" />
-                    <path d="M40 28 C34 18, 22 18, 22 32 C22 46, 40 60, 40 60 C40 60, 58 46, 58 32 C58 18, 46 18, 40 28"
-                        fill="#f5a623" />
-                    <ellipse cx="30" cy="30" rx="4" ry="3" fill="#fcd181" opacity="0.6" />
-                </svg>
-            </div>
-            <div class="ph-main-logo-text">
-                <span class="ph-main-builder">BUILDER</span>
-                <span class="ph-main-clinic">CLINIC</span>
-            </div>
+            <img src="app/images/logo.png" style="width:180px;height:auto;margin-bottom:20px;">
         </div>
 
         <!-- Action Cards -->

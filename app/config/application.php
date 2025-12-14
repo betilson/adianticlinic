@@ -4,7 +4,7 @@ return [
         'timezone' => 'America/Sao_Paulo',
         'language' => 'pt',
         'application' => 'template',
-        'title' => 'Adianti Template 8.4',
+        'title' => 'Adianti Clinic Saas',
         'theme' => 'adminbs5',
         'seed' => 'odfu6asnodf8as',
         'rest_key' => '',
